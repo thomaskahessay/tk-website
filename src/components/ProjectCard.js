@@ -29,7 +29,8 @@ const useStyles = createStyles((theme) => ({
       cursor: "grab",
     },
     [theme.fn.largerThan("xl")]: {
-      height: rem(530),
+      height: rem(550),
+      marginRight: rem(10),
     },
     [theme.fn.largerThan("lg") && theme.fn.smallerThan("xl")]: {
       height: rem(620),
@@ -38,7 +39,7 @@ const useStyles = createStyles((theme) => ({
       height: rem(420),
     },
     [theme.fn.smallerThan("xs")]: {
-      height: rem(550),
+      height: rem(630),
     },
   },
   cardImage: {

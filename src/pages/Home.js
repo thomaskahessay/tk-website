@@ -126,7 +126,7 @@ const useStyles = createStyles((theme) => ({
     },
   },
   landing: {
-    paddingBottom: "11vh",
+    paddingBottom: "15vh",
     height: "100vh",
     [theme.fn.smallerThan("lg")]: {
       marginLeft: 0,
@@ -259,7 +259,7 @@ const useStyles = createStyles((theme) => ({
   projectCarousel: {
     height: rem(550),
     [theme.fn.largerThan("xl")]: {
-      height: rem(530),
+      height: rem(550),
     },
     [theme.fn.largerThan("lg") && theme.fn.smallerThan("xl")]: {
       height: rem(620),
@@ -268,14 +268,14 @@ const useStyles = createStyles((theme) => ({
       height: rem(420),
     },
     [theme.fn.smallerThan("xs")]: {
-      height: rem(550),
+      height: rem(630),
     },
   },
   skills: {
     [theme.fn.largerThan("sm")]: {
       height: "100vh",
     },
-    [theme.fn.smallerThan("sm")]: {
+    [theme.fn.smallerThan("xl")]: {
       marginTop: "10vh",
     },
   },
@@ -506,9 +506,8 @@ function Projects() {
           </Box>
         </Center>
         <Carousel
-          slideSize='33.333333%'
-          controlSize={40}
-          slideGap='md'
+          slideSize='33.3333333%'
+          slideGap='lg'
           loop
           align='start'
           breakpoints={[
