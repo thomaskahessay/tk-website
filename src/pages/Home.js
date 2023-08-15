@@ -434,13 +434,13 @@ function About() {
             <Space h='lg' />
             <Container ta='center' fz={rem(16)}>
               <Text className={classes.text}>
-                Currently I am a Software Engineering new graduate, from the
+                Currently, I am a Software Engineering new graduate from the
                 University of Calgary. I have previously interned as a Software
-                Developer at IBM, with experience in full stack development. My
-                interests include entrepreneurship, web development, and the
-                intersection of technology and healthcare. Some of my other
-                interests include soccer, sneakers/fashion and music. I am
-                always looking for new and fun opportunities to learn and grow!
+                Developer at IBM, gaining experience in full-stack development.
+                My interests encompass entrepreneurship, web development, and
+                the intersection of technology and healthcare. Additionally, I
+                am interested in soccer, sneakers/fashion, and music. I am
+                always seeking new and exciting opportunities to learn and grow!
               </Text>
             </Container>
           </Box>
@@ -681,34 +681,53 @@ function Experience() {
               <Timeline.Item title='Conclude.ai Operated by IBM (May 2021 - Aug. 2022)'>
                 <List center size='md' spacing='sm' mt='md'>
                   <List.Item className={classes.listItem}>
-                    Shaped an incubator project developing a solution to assist
-                    sales representatives to stay compliant while pursuing
-                    unique engagement offerings with their customers.
+                    Pioneered the development of an incubator SaaS platform with
+                    an Agile team allowing users to receive legally compliant
+                    and unique engagements for their customers
                   </List.Item>
                   <List.Item className={classes.listItem}>
-                    Transformed the front-end creating more than 5 views and 20
-                    components for the web application utilizing TypeScript,
-                    SCSS, HTML, React/Redux, and IBM's Carbon Design System.
+                    Improved API response times by ∼85% employing Flask’s
+                    default caching mechanism to optimize 12 endpoints
                   </List.Item>
                   <List.Item className={classes.listItem}>
-                    Created 10+ API endpoints using Python, Flask and MongoDB to
-                    store, update, and retrieve data required for the
-                    application.
+                    Created 15+ reusable components using React.js and
+                    introduced lazy loading decreasing page load times by 63%
+                  </List.Item>
+                  <List.Item className={classes.listItem}>
+                    Optimized the application with Redux employing memoization
+                    and batched actions to reduce re-renders by 25%
+                  </List.Item>
+                  <List.Item className={classes.listItem}>
+                    Reduced MongoDB database size by 40% leveraging AWS S3
+                    storage for engagements and uploaded images
+                  </List.Item>
+                  <List.Item className={classes.listItem}>
+                    Developed and conducted comprehensive unit and integration
+                    tests using Jest resulting in 95% code coverage
                   </List.Item>
                 </List>
               </Timeline.Item>
               <Timeline.Item title='Pathway Signal Management Operated by IBM (Sep. 2021 - Jan. 2022)'>
                 <List center size='md' spacing='sm' mt='md'>
                   <List.Item className={classes.listItem}>
-                    Employed data-driven insights to detect unwarranted
-                    variation in patient care to improve health care efficiency
-                    and reliability.
+                    Employed JavaScript with D3.js to create an interactive
+                    Sankey visualization enabling practitioners to detect
+                    unwarranted variation in cancer patient pathways 75% faster
+                    by comparing patient data against the ideal pathway
                   </List.Item>
                   <List.Item className={classes.listItem}>
-                    Developed an interactive JavaScript Sankey visualization
-                    within a Cognos Analytics report using D3 to depict and
-                    overlay 1 ideal and 100’s of sample patients’ lung cancer
-                    pathways.
+                    Enhanced the visualization to include a custom tool-tip
+                    allowing 50+ key patient metrics to be shown on hover
+                  </List.Item>
+                  <List.Item className={classes.listItem}>
+                    Increased maximum amount of data points within the
+                    visualization by 33% using WebGL within the D3FC library
+                  </List.Item>
+                  <List.Item className={classes.listItem}>
+                    Demonstrated and highlighted the potential use cases of the
+                    visualization through presentations to 5 prospective
+                    customers translating to 4 customers expressing interest in
+                    signing initial agreements for the software
                   </List.Item>
                 </List>
               </Timeline.Item>
